@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #4A90E2, #70B8FF);
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.2em;
+    font-weight: 600;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(15px);
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #00509E;
+    font-size: 1.6em;
+    margin: 15px 0;
+}
+
+.roadmap-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.roadmap-table th, .roadmap-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.roadmap-table th {
+    background: rgba(0, 80, 158, 0.8);
+    color: #fff;
+}
+
+.roadmap-table tr:hover {
+    background: rgba(0, 80, 158, 0.2);
+    transition: 0.3s;
+}
+
+.container {
+    padding: 15px;
+}
+
+.emoji {
+    font-size: 1.2em;
+    margin-right: 5px;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 1em;
+    font-weight: 600;
+    color: white;
+    background: #00509E;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.back-button:hover {
+    background: #003F7F;
+}
